@@ -1,0 +1,122 @@
+@font-face {
+	font-family: BreeSerif;
+	font-family: Montserrat;
+	src: url(../../Assets/Fonts/BreeSerif-Regular.ttf);
+	src: url(../../Assets/Fonts/Montserrat-Regular.ttf);
+}
+
+.background{
+	height: 100vh;
+}
+
+nav{
+	height: 6rem;
+	padding-top: 2.4rem ;
+}
+
+.menu{
+	position: relative;
+	display: flex;	
+	left: 25rem;
+	margin: 0 auto;
+}
+.menu .enter-app{
+	margin-left: 2rem;
+}
+.chamada{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.banner{
+	font-family: BreeSerif;
+	font-size: 2rem;
+	color: #040506;
+	text-decoration: underline #f8c037;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 4rem;
+}
+
+.about-me{
+	margin: 0 8rem 0 4rem;
+}
+
+.about-me h2{
+	font-family: Montserrat;
+	font-size: 2rem;
+	margin: 1.6rem 0 .4rem 0;
+
+}
+
+
+.text {
+	width: 28rem;
+	font-size: 1rem;
+	color:#040506;
+	margin-bottom: 2rem;
+	line-height: 1.6rem;
+}
+
+.projects {	
+	width: 50.2%;
+}
+
+.projects_container {
+	width: 100%;
+	height: 26rem;
+  
+	display: flex;
+  
+	overflow: auto;
+  }
+
+  .projects_container::-webkit-scrollbar {
+	width: 4px;
+  }
+  
+  .projects_container::-webkit-scrollbar-track {
+	background: #142027;
+  
+  }
+  
+  .projects_container::-webkit-scrollbar-thumb {
+	background: var(--color-blue);
+	border: solid 4px var(--color-blue);
+  }
+  
+  .projects_img {
+	width: 21rem;
+	height: 23.6rem;
+	margin: 0 1.9rem;
+	border: solid 1px var(--color-blue);
+  }
+
+
+
+.social-cards img{
+	height: 2rem;
+	transition: all 0.5s;
+    cursor: pointer;
+}
+
+.social-cards img:hover{
+	background-color: #f8c037;;
+	-webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+ .container{
+	width: 20rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2rem;
+
+}
+
+.container .social-cards{
+	display: flex;
+	flex-direction: column;
+}
+

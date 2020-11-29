@@ -1,0 +1,96 @@
+@font-face {
+	font-family: BreeSerif;
+	font-family: Montserrat;
+	src: url(../../Assets/Fonts/BreeSerif-Regular.ttf);
+	src: url(../../Assets/Fonts/Montserrat-Regular.ttf);
+}
+
+/* .background{
+    background: linear-gradient( #f8c4c1 10%, #f7dace 80%,#f8f3ee 150%);
+    height: 100%;
+} */
+
+#title{
+    width: 30rem;
+    text-align: center;
+    font-family: BreeSerif;
+    font-size: 3.8rem;
+    color: #040506;
+    text-decoration: underline #f8c037;
+    padding: 0 0 3rem 0;
+    margin: 0 auto;
+}
+
+.background-div .input{
+    width: 30rem;
+    height: 2.4rem;
+    margin-top: 4rem;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 1rem;
+    list-style: none;
+    outline: none;
+    border:none;
+    background-color: #fadccc;
+    border-radius: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+.card{
+    width: 18rem;
+    height: 22rem;
+    margin: 1.8rem 1.6rem;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    color: #040506;
+    background-color: #f3b7aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: .3rem .3rem .4rem #cc8d7d;
+}
+
+.card:hover{
+    border: .1rem solid #040506;
+    background: initial;
+    box-shadow: initial;
+
+}
+
+/* Chamando por Herança para aplicar style nos filhos */
+
+.card h3{
+    font-family: BreeSerif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: .4em;
+}
+
+.card p{
+    font-family: Montserrat;
+    color: #533d58; 
+    font-weight: 600;
+    font-size: 1rem;
+
+    
+}
+
+.card img{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    max-width: 40rem;
+    height: 12rem;
+}

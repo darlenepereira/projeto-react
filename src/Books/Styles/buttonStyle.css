@@ -1,0 +1,22 @@
+.button-style{
+	width: 8.8rem;
+	height: 2.4rem;
+	border-radius: .6rem;
+	text-decoration: none;
+	outline: none ;
+	list-style: none;
+	transition: background-color 0.2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: .1rem solid #040506;
+	background-color: initial;
+	color: #040506;
+}
+
+
+.button-style:hover{
+	color: #F4F4F4;
+	background-color: #533d58;
+	border: none;
+} 

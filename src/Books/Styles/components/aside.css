@@ -1,0 +1,26 @@
+@font-face {
+	font-family: BreeSerif;
+	font-family: Montserrat;
+	src: url(../../Assets/Fonts/BreeSerif-Regular.ttf);
+	src: url(../../Assets/Fonts/Montserrat-Regular.ttf);
+}
+
+  nav{
+    height: 4rem;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  
+  header.app-sidebar nav a,
+  header .go-about,
+  header.app-sidebar nav button {
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
