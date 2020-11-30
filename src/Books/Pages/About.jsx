@@ -33,7 +33,7 @@ const About = () => {
                         <h2>Sobre mim</h2>
                         <p className='text'>Eu amo me dedicar a leituras porque os livros me faz refletir e olhar com outra perspectiva os mesmos temas e ao mesmo tempo aprender sobre algo que eu ainda não sei. Gosto de sair para patinar e conhecer cafeterias, amo exposições e eventos culturais, amo dançar e viajar. Hoje eu aprecio com muita intensidade e amor minha companhia e respeito os meus limites. Aos finais de semana gosto de dedicar ao auto cuidado e a amigos. Sou curiosa e sempre pesquiso e busco me desenvolver sempre. Bora nos conectar !</p>
                         <a href="https://twitter.com/Inca_lenny" target='blank' className='button-style enter-tweeter'>
-                            Tweeter
+                            Twitter
                         </a>
                  <main className='container'>
                         {Social.map(redes => {
